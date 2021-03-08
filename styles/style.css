@@ -59,6 +59,7 @@
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
+  z-index: 2;
 }
 
 .header__link {
@@ -238,6 +239,7 @@
   font-size: 36px;
   color: #2f80ed;
   text-decoration: none;
+  z-index: 2;
 }
 
 .feynman__img {
@@ -353,6 +355,9 @@
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -364,9 +369,6 @@
 .footer__author {
   margin-top: 18px;
   margin-bottom: 18px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   line-height: 25px;
   font-size: 18px;
 }
@@ -385,17 +387,12 @@
   font-weight: bold;
 }
 
-.footer__link {
-  color: white;
-  text-decoration: none;
-}
-
-.footer__links {
-  color: white;
-  text-decoration: none;
-}
-
 .footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-links {
   height: 10px;
   display: flex;
   flex-direction: column;
