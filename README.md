@@ -19,4 +19,5 @@ The single page website is created using some advanced features of HTML and CSS.
 
 ## URL
 
-https://github.com/ElenaMaslovskaya/how-to-learn
+https://elenamaslovskaya.github.io/how-to-learn/index.html
+
